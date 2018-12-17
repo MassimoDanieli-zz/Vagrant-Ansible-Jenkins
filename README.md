@@ -18,7 +18,7 @@ There are just few steps to follow
 
 2) Clone the repository or download the zip file 
 
-    `git clone https://github.com/MassimoDanieli/Vagrant-Ansible-Jenkins/`
+    `git clone https://github.com/MassimoDanieli/Vagrant-Ansible-Jenkins.git`
 
     *or*
 
