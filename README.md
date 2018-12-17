@@ -22,7 +22,7 @@ There are just few steps to follow
 
     *or*
 
-    `unzip  Vagrant-Ansible-Jenkins.zip`
+    `unzip  Vagrant-Ansible-Jenkins-master.zip`
 
 3) Go to the new directory and spin up the vagrant machine and let ansible do the work !
 
