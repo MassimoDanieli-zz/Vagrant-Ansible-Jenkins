@@ -7,7 +7,7 @@ The name of the newly create VM will be **jenkins**
 vagrant status
 Current machine states:
 
-jenkins                   running (virtualbox)`
+jenkins                   running (virtualbox)
 ```
 
 # How to use it
@@ -24,11 +24,11 @@ There are just few steps to follow
 
     `unzip  Vagrant-Ansible-Jenkins.zip`
 
-3) go to the new directory and spin up the vagrant machine and let ansible do the work !
+3) Go to the new directory and spin up the vagrant machine and let ansible do the work !
 
     `cd Vagrant-Ansible-Jenkins && vagrant up`
 
-4) copy the initial Jenkins admin's password from the latest ansible task
+4) Copy the initial Jenkins admin's password from the latest ansible task
     ```
     TASK [jenkins : print init password jenkins] ***********************************
            ok: [jenkins] => {
@@ -40,5 +40,5 @@ There are just few steps to follow
 5) Open your favorite browser and connect to   http://127.0.0.1:8080 or http://YOURIP:8080 
 The admin username is **admin** and the password is the one shown in point 4)
 
-6) your Jenkins CI is now up and running: don't forget to check its documentation page https://jenkins.io/doc/
+6) Your Jenkins CI is now up and running: don't forget to check its documentation page https://jenkins.io/doc/
 
