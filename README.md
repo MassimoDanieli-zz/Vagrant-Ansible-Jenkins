@@ -3,10 +3,12 @@
 The scope of this script is to provide a full install of Jenkins CI using vagrant in your laptop.
 The name of the newly create VM will be **jenkins**
 
-`vagrant status
+```
+vagrant status
 Current machine states:
 
 jenkins                   running (virtualbox)`
+```
 
 # How to use it
 
@@ -27,11 +29,13 @@ There are just few steps to follow
     `cd Vagrant-Ansible-Jenkins && vagrant up`
 
 4) copy the initial Jenkins admin's password from the latest ansible task
-
-    `TASK [jenkins : print init password jenkins] ***********************************
-        ok: [jenkins] => {
+    ```
+    TASK [jenkins : print init password jenkins] ***********************************
+           ok: [jenkins] => {
         "result.stdout": "ed83571837eb42fbadb4548f08e12e35"
-    }`
+    }
+    ```
+    
 
 5) Open your favorite browser and connect to   http://127.0.0.1:8080 or http://YOURIP:8080 
 The admin username is **admin** and the password is the one shown in point 4)
