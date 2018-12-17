@@ -37,7 +37,7 @@ There are just few steps to follow
     ```
     
 
-5) Open your favorite browser and connect to   http://127.0.0.1:8080 or http://YOURIP:8080 
+5) Open your favorite browser and connect to   http://127.0.0.1:8080 or http://YOUR_IP:8080 
 The admin username is **admin** and the password is the one shown in point 4)
 
 6) Your Jenkins CI is now up and running: don't forget to check its documentation page https://jenkins.io/doc/
