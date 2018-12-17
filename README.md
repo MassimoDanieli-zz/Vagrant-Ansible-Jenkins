@@ -14,7 +14,7 @@ jenkins                   running (virtualbox)
 
 There are just few steps to follow
 
-1) Be sure to have vagrant installed in you laptop, otherwise follow this instrutions to install it https://www.vagrantup.com/intro/getting-started/install.html
+1) Be sure to have vagrant installed in your laptop, otherwise follow these instrutions to install it https://www.vagrantup.com/intro/getting-started/install.html
 
 2) Clone the repository or download the zip file 
 
