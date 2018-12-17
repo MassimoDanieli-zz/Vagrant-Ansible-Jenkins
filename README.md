@@ -1,7 +1,7 @@
 # Vagrant-Ansible-Jenkins
 
-The scope of this script is to provide a full install of Jenkins CI using vagrant in Devs' laptop.
-The nane of the newly create VM will 'jenkins'
+The scope of this script is to provide a full install of Jenkins CI using vagrant in your laptop.
+The name of the newly create VM will be **jenkins**
 
 `vagrant status
 Current machine states:
